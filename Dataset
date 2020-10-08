@@ -1,0 +1,36 @@
+group: PerumahanDosen
+Perumahan = {
+blockCode, blockName, postcode
+'P001', 'A', 'SU 100'
+'P002', 'B', 'SU 200'
+'P003', 'C', 'TU 600'
+'P004', 'D', 'TU 700'
+'P005', 'E', 'TU 800'
+'P006', 'F', 'TU 900'
+}
+Dosen = {
+dosenNo, fname, lname, fakultas, departemen, sex, phone, email, blockCode
+'AB209', 'Suman', 'Haynes', 'FTIRS', 'T. Fisika', 'F', 62-246-5552-962, 'sumanhayn@yahoo.com', 'P002'
+'NL092', 'Rudy', 'Leon', 'FTSLK', 'PWK', 'M', 62-246-5557-876, 'rudyleon@yahoo.com', 'P001'
+'MN736', 'Jaden', 'Adam', 'FTEI', 'SI', 'M', 62-246-5551-253, 'jaden@yahoo.com', 'P005'
+'LM122', 'Emilis', 'Erickson', 'FTEI', 'SI', 'M', 62-246-5557-391, 'emiliserick7@yahoo.com', 'P004'
+'JK666', 'Tracy', 'Mata', 'FTIRS', 'T. Fisika', 'F', 62-246-5553-604, 'mata09@yahoo.com', 'P004'
+'MA100', 'Zi', 'Weeks', 'FTK', 'T. Perkapalan', 'M', 62-246-5558-860, 'ziweeks@yahoo.com', 'P003'
+}
+Kosan = {
+kosanNo, rooms, harga, blockName, facilityAC, facilityWifi, dosenNo, blockCode
+'UK45', 5, 800000, 'B', 'Y', 'Y', 'AB209', 'P002'
+'KL09', 8, 500000, 'A', 'Y', 'N', 'NL092', 'P001'
+'JK09', 5, 750000, 'E', 'Y', 'Y', 'MN736', 'P005'
+'PL12', 3, 700000, 'D', 'Y', 'Y', 'LM122', 'P004'
+'PL34', 6, 450000, 'D', 'N', 'Y', 'JK666', 'P004'
+'NM67', 5, 450000, 'C', 'N', 'N', 'MA100', 'P003'
+}
+Mahasiswa = {
+mhsNo, fname, lname, fakultas, departemen, email, kosanNo
+'NM677', 'Corban', 'Rivera', 'FTEI', 'SI', 'corban@yahoo.com', 'JK09'
+'PL544', 'Jill', 'Buxton', 'FTK', 'T. Perkapalan', 'jbuxton@yahoo.com', 'NM67'
+'PL334', 'Amit', 'Henry', 'FTK', 'T. Perkapalan', 'amitehenr0@yahoo.com', 'PL12'
+'OP677', 'Luisa', 'Mercado', 'FTSLK', 'Arsitektur', 'l0uisee@yahoo.com', 'KL09'
+'ML998', 'Cole', 'Rush', 'FTSLK', 'PWK', 'colerush88@yahoo.com', 'NM67'
+}
